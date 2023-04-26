@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rbac_security?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: Ty20021104.
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
